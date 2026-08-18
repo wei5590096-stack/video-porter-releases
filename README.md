@@ -27,8 +27,8 @@
 
 | 系统 | 下载 | 安装入口 |
 | --- | --- | --- |
-| macOS | **[下载 macOS 安装包](https://github.com/wei5590096-stack/video-porter-releases/releases/latest/download/video-downloader-macos-2.5.1.zip)** | 解压后右键打开 `Install-macOS.command` |
-| Windows 10/11 | **[下载 Windows 安装包](https://github.com/wei5590096-stack/video-porter-releases/releases/latest/download/video-downloader-windows-2.5.1.zip)** | 解压后双击 `Install-Windows.cmd` |
+| macOS | **[下载 macOS 安装包](https://github.com/wei5590096-stack/video-porter-releases/releases/latest/download/video-downloader-macos.zip)** | 解压后右键打开 `Install-macOS.command` |
+| Windows 10/11 | **[下载 Windows 安装包](https://github.com/wei5590096-stack/video-porter-releases/releases/latest/download/video-downloader-windows.zip)** | 解压后双击 `Install-Windows.cmd` |
 
 安装程序会启动本地下载助手，并自动打开 Edge 扩展管理页和需要选择的 `extension` 文件夹。然后：
 
