@@ -1,0 +1,91 @@
+name: Bug 报告
+description: 报告能够稳定复现的解析、下载、界面或更新问题
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请先更新到最新版本，并移除 Cookie、账号、本机路径等敏感信息。
+  - type: input
+    id: version
+    attributes:
+      label: 视频下载助手版本
+      placeholder: 例如 2.5.1
+    validations:
+      required: true
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: 操作系统
+      options:
+        - macOS
+        - Windows 11
+        - Windows 10
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: edge-version
+    attributes:
+      label: Microsoft Edge 版本
+      placeholder: 可在 edge://settings/help 查看
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 视频平台
+      options:
+        - YouTube
+        - Bilibili
+        - X
+        - 抖音
+        - TikTok
+        - Vimeo
+        - Instagram
+        - 普通网页或媒体直链
+        - 软件更新
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请按顺序说明操作过程。
+      placeholder: |
+        1. 打开……
+        2. 粘贴……
+        3. 点击……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果与完整错误提示
+    validations:
+      required: true
+  - type: textarea
+    id: link
+    attributes:
+      label: 公开示例链接
+      description: 只提交任何人都能访问且允许下载的公开内容；没有可以留空。
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我已经更新到最新版本。
+          required: true
+        - label: 我没有提交 Cookie、账号、令牌或其他敏感信息。
+          required: true
+        - label: 相关内容为公开内容，且我拥有下载或测试授权。
+          required: true
