@@ -21,6 +21,23 @@
 
 > 本仓库是视频下载助手的官方公开发行渠道，用于提供版本说明、安全更新文件和用户支持，不包含产品源代码。
 
+## 下载与首次安装
+
+请选择自己的操作系统下载首次安装包：
+
+| 系统 | 下载 | 安装入口 |
+| --- | --- | --- |
+| macOS | **[下载 macOS 安装包](https://github.com/wei5590096-stack/video-porter-releases/releases/latest/download/video-downloader-macos-2.5.1.zip)** | 解压后右键打开 `Install-macOS.command` |
+| Windows 10/11 | **[下载 Windows 安装包](https://github.com/wei5590096-stack/video-porter-releases/releases/latest/download/video-downloader-windows-2.5.1.zip)** | 解压后双击 `Install-Windows.cmd` |
+
+安装程序会启动本地下载助手，并自动打开 Edge 扩展管理页和需要选择的 `extension` 文件夹。然后：
+
+1. 在 Edge 扩展页面打开右上角“开发人员模式”。
+2. 点击“加载解压缩的扩展”。
+3. 选择安装程序打开的 `extension` 文件夹。
+
+首次安装完成后，后续升级只需在扩展底部点击“检查更新”。
+
 ## 核心功能
 
 | 功能 | 说明 |
@@ -73,9 +90,9 @@
 
 ## 首次安装说明
 
-本仓库目前主要服务于已经获得首装包的测试用户。首次安装需要完成一次 Edge 扩展和本地助手安装；之后的版本均可在扩展内一键更新。
+首次安装包同时包含编译后的 Edge 扩展、本地下载助手和系统安装入口。请完整解压 ZIP 后运行安装入口，不要在压缩包预览窗口中直接运行文件。
 
-`latest.json` 和 `*.bundle.json` 是程序使用的安全更新文件，**不是供用户手动打开的安装包**。公开首装包准备完成后会在 Release 页面单独标注为“首次安装包”。
+`latest.json` 和 `*.bundle.json` 是已安装程序使用的安全更新文件，**不是供用户手动打开的安装包**。普通用户只需下载文件名中包含 `macos` 或 `windows` 的 ZIP。
 
 ## 系统兼容性
 
