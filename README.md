@@ -1,8 +1,10 @@
 <div align="center">
 
-# 视频下载助手
+<img src="assets/light-save-icon.png" alt="轻存图标" width="96" height="96">
 
-**复制视频链接，选择清晰度，一键保存到本地**
+# 轻存
+
+**复制链接或悬停视频，一键识别并保存到本地**
 
 [![Latest Release](https://img.shields.io/github/v/release/wei5590096-stack/video-porter-releases?display_name=release&style=flat-square&label=最新版本&color=6d5dfc)](https://github.com/wei5590096-stack/video-porter-releases/releases/latest)
 ![Microsoft Edge](https://img.shields.io/badge/Microsoft%20Edge-Manifest%20V3-0c59a4?style=flat-square)
@@ -15,11 +17,11 @@
 
 ## 产品介绍
 
-视频下载助手是一款面向 Microsoft Edge 的本地视频下载工具。用户粘贴自己有权访问和保存的公开视频网页链接，程序会自动识别平台、获取视频信息并提供可用的清晰度与格式，确认后即可下载到本地。
+轻存是一款面向 Microsoft Edge 的本地在线视频下载工具。复制视频链接，或将鼠标悬停在网页视频上，即可识别并保存；需要时只需选择清晰度与格式，其余步骤由程序自动完成。
 
 产品坚持简单原则：**复制链接 → 选择画质 → 点击下载**。解析、文件命名、音视频合并、进度提示和更新校验由程序自动完成。
 
-> 本仓库是视频下载助手的官方公开发行渠道，用于提供版本说明、安全更新文件和用户支持，不包含产品源代码。
+> 本仓库是轻存的官方公开发行渠道，用于提供安装包、版本说明、安全更新文件和用户支持，不包含产品源代码。
 
 ## 下载与首次安装
 
@@ -165,6 +167,6 @@
 
 <div align="center">
 
-**视频下载助手 · 让公开媒体保存更简单**
+**轻存 · 让公开媒体保存更简单**
 
 </div>
