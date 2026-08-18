@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全问题（私密报告）
+    url: https://github.com/wei5590096-stack/video-porter-releases/security/advisories/new
+    about: 请勿在公开 Issue 中披露未修复漏洞或敏感信息
