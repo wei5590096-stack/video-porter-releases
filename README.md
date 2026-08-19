@@ -27,36 +27,23 @@
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="assets/screenshots/popup-ready-2.7.4.jpg" alt="自动识别视频并选择画质" width="360"><br>
-      <strong>自动识别</strong><br>
-      <sub>读取标题、作者、时长，并提供清晰度与格式选择</sub>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/popup-ready-2.8.1.png" alt="轻存 2.8.1 自动识别与下载界面" width="380"><br>
+      <strong>复制链接，一步保存</strong><br>
+      <sub>自动识别视频信息，只保留画质、格式和下载三个必要操作</sub>
     </td>
-    <td align="center" width="33%">
-      <img src="assets/screenshots/popup-downloading-2.7.4.jpg" alt="实时下载进度" width="360"><br>
-      <strong>实时进度</strong><br>
-      <sub>清楚显示下载比例、速度、剩余时间与当前状态</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/screenshots/popup-completed-2.7.4.jpg" alt="下载完成后的文件操作" width="360"><br>
-      <strong>完成即用</strong><br>
-      <sub>直接打开视频、所在文件夹或复制文件路径</sub>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/popup-repair-2.8.1.png" alt="轻存 2.8.1 一键修复界面" width="380"><br>
+      <strong>问题就地修复</strong><br>
+      <sub>自动识别操作系统，在插件内下载对应修复包，不跳转临时链接</sub>
     </td>
   </tr>
 </table>
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/screenshots/popup-empty-2.7.4.jpg" alt="轻存浅色模式" width="360"><br>
-      <strong>浅色模式</strong>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/screenshots/popup-dark-2.7.4.jpg" alt="轻存深色模式" width="360"><br>
-      <strong>深色模式</strong>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/screenshots/settings-dark-2.8.1.png" alt="轻存 2.8.1 深色设置页面" width="900"><br>
+  <strong>简洁设置 · 自动跟随系统深浅主题</strong>
+</p>
 
 ## 简单，但不简陋
 
@@ -82,6 +69,8 @@
 3. 选择安装程序打开的 `extension` 文件夹。
 
 首次安装完成后，后续升级只需在扩展底部点击“检查更新”。
+
+> **请始终加载安装程序打开的固定 `extension` 文件夹。** 不要选择安装包中的 `payload`、`companion` 或 `scripts`。这样扩展和本地下载服务才能在后续更新时保持同一个版本。
 
 ## 核心功能
 
@@ -135,7 +124,7 @@
 
 ## 首次安装说明
 
-首次安装包同时包含编译后的 Edge 扩展、本地下载助手和系统安装入口。请完整解压 ZIP 后运行安装入口，不要在压缩包预览窗口中直接运行文件。
+首次安装包同时包含 Edge 扩展安装资源、本地下载助手和系统安装入口。请完整解压 ZIP 后运行安装入口，不要在压缩包预览窗口中直接运行文件，也不要手动加载 `payload` 中的文件。
 
 `latest.json` 和 `*.bundle.json` 是已安装程序使用的安全更新文件，**不是供用户手动打开的安装包**。普通用户只需下载文件名中包含 `macos` 或 `windows` 的 ZIP。
 
