@@ -2,6 +2,15 @@
 
 本项目采用 `主版本.次版本.修订版本` 的版本编号方式。正式版本及更新资产统一发布在 [GitHub Releases](https://github.com/wei5590096-stack/video-porter-releases/releases)。
 
+## 2.8.3 · 2026-10-12 · 预发布
+
+- Windows 安装脚本使用 UTF-8 BOM，并在打包时强制保留，修复 PowerShell 5.1 的 ANSI 解码问题。
+- 下载使用基础解析模式，避免 IE DOM 依赖与额外确认提示。
+- 使用 PowerShell 启动助手并保存错误日志，不再依赖 VBScript。
+- 检查 Node.js 最低版本与已安装的专用运行环境，健康检查核对版本和平台。
+- 更新器支持新启动入口并兼容旧版入口。
+- 验证：155 项逻辑测试、构建及 PowerShell 脚本解析检查通过；Win11 原生安装和实际下载未验证。
+
 ## 2.8.2 · 2026-10-12
 
 - 修复 macOS 本地助手被禁用后安装器未恢复启用的问题。

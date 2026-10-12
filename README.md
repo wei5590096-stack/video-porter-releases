@@ -23,6 +23,14 @@
 
 > 本仓库是轻存的官方公开发行渠道，用于提供安装包、版本说明、安全更新文件和用户支持，不包含产品源代码。
 
+## Windows 安装修复预发布：2.8.3
+
+如果 Win11 显示“下载服务未启动”，可使用 [2.8.3 Windows 修复包](https://github.com/wei5590096-stack/video-porter-releases/releases/download/v2.8.3/video-downloader-windows.zip)。它修复 Windows PowerShell 5.1 的中文脚本编码与下载命令兼容问题，并使用带日志的 PowerShell 启动入口。
+
+完整解压后重新运行最外层 `Install-Windows.cmd`；仅更新扩展不能恢复未启动的本地助手。Edge 加载固定 `extension` 目录并重新加载。健康检查地址：`http://127.0.0.1:48620/health`。
+
+此版本通过脚本与包结构检查，**Windows 真机安装和下载待验证**，因此标为预发布；稳定版仍为 2.8.2。详细范围见 [2.8.3 发布说明](https://github.com/wei5590096-stack/video-porter-releases/releases/tag/v2.8.3)。
+
 ## 2.8.2 下载兼容性修复
 
 - macOS 安装器恢复被禁用的本地下载服务，修复重启后扩展无法连接助手。
